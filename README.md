@@ -1,5 +1,6 @@
 # Gastric_Cancer_Classification
 Gastric Cancer Classification using Computer Vision Technology
+
 Link of Dataset :- https://drive.google.com/drive/folders/1JF6zExBSyHELVnsmRDYGxGDnBMWqHCVV?usp=sharing
 
 Abstract-
@@ -94,6 +95,50 @@ test loss = test loss / len(dataloader)
 Cross-entropy loss: In this project we have used Cross-entropy loss. It is a type of loss function that is frequently used in machine learning. It calculates the dissimilarity between the output of the provided model and the expected output, and its main objective is to ensure that the energy between the estimated probability density function and the actual probability density function is at a minimum level. This is achieved through the use of the squared error, which is summed for all output units and weighted by the true output probabilities. A cross-entropy loss of less than 0. 3 is considered a good model for the framework.  
 
 Dataset:-https://figshare.com/articles/dataset/GasHisSDB/15066147
+
+Conclusions and Future Scope:-
+
+This provides an insight into the potential magnitude of how computer vision techniques could be used in gastric cancer classification. Owing to the importance of the implications involved, our study intended to investigate this potential, using the GasHisSDB dataset and a Residual Network based model.
+
+The performance was measured in either accuracy and cross entropy loss. Instead it provides very informative insights into what the model can and cannot do. Although research and refinement should be done further, it implied that computer vision is a breakthrough in supporting the diagnosis of gastric cancer.
+
+This technology has the potential for numerous advantages: automated analysis to improve upon human errors, quicker diagnosis from fast data analysis, and thus possibly earlier detection. Moreover, broader implementation can solve the problem of the limited number of specialist endoscopists and pathologists and contribute to the more just provision of health care. Based on the provided metrics, the ResNet-50 model appears to be the most optimized result among the three models presented with accuracy at 83.87% and the highest validation accuracy at 79.33%, indicating better overall performance.
+
+In the future, researchers should work to expand the availability of data, address the issue of data bias, and improve model interpretability for the technology to be better integrated into clinical practice. Therefore, advanced deep learning architecture development, coupled with its integration into current clinical workflows, becomes an imperative step to unlock computer vision technologies in the fight against gastric cancer.
+
+References:-
+
+[1] S. -A. Lee, H. C. Cho and H. -C. Cho, “A Novel Approach for Increased Convolutional Neural Network Performance in Gastric-Cancer Classification Using Endoscopic Images,” in IEEE Access, vol. 9, pp. 51847-51854, (2021), doi: 10.1109/ACCESS.2021.3069747.
+
+[2] Sano, T., Aiko, T. “New Japanese classifications and treatment guidelines for gastric cancer: revision concepts and major revised points,” Gastric Cancer 14, 97–100 (2011), doi:10.1007/s10120-011-0040-6.
+
+[3] Ikenoyama Y, Hirasawa T, Ishioka M, Namikawa K, Yoshimizu S, Horiuchi Y, et al., “Detecting early gastric cancer: Comparison between the diagnostic ability of convolutional neural networks and endoscopists,” doi: 10.1111/den.13688. 
+
+[4] Atsushi Teramoto,Tomoyuki Shibata,Hyuga Yamada,Yoshiki Hirooka,KuniakiSaito and Hiroshi Fujita , “Automated Detection of Gastric Cancer by Retrospective Endoscopic Image Dataset Using U-Net R-CNN,” doi:10.3390/app112311275.
+
+[5] Xiaodong Wang,Ying Chen, Yunshu Gao, Huiqing Zhang, Zehui Guan, Zhou Dong, Yuxuan Zheng, Jiarui Jiang, Haoqing Yang, Liming Wang, Xianming Huang, “Predicting gastric cancer outcome from resected lymph node histopathology images using deep learning,” ,doi: 10.1038/s41467-021-21674-7.
+
+[6] Ming Ping Yong ,Yan Chai Hum,Khin Wee Lai,Ying Loong Lee ,Choon-Hian Goh ,Wun-She Yap  andYee Kai Tee, “Histopathological Gastric Cancer Detection on GasHisSDB Dataset Using Deep Ensemble Learning,”doi:10.3390/diagnostics13101793.
+
+[7] Tomoyuki Shibata , Atsushi Teramoto, Hyuga Yamada , Naoki Ohmiya , Kuniaki Saito and Hiroshi Fujita , “Automated Detection and Segmentation of Early Gastric Cancer from Endoscopic Images Using Mask R-CNN,” Appl. Sci. 2020, 10, 3842, doi:10.3390/app10113842 .
+
+[8] Yuanpeng Li, Liangyu Deng, Xinhao Yang, Zhao Liu, Xiaoping Zhao, Furong Huang, Siqi Zhu, Xingdan Chen, Zhenqiang Chen, and Weimin Zhang. , “Early diagnosis of gastric cancer based on deep learning combined with the spectral-spatial classification method,”doi:10.1364/BOE.10.004999.
+
+[9] Zhang, K., Wang, H., Cheng, Y. et al. “Early gastric cancer detection and lesion segmentation based on deep learning and gastroscopic images,” doi:10.1038/s41598-024-58361-8
+
+[10] Shuang-Li Zhu, Jie Dong, Chenjing Zhang, Yao-Bo Huang, and Wensheng Pan. , “Application of Machine Learning in the Diagnosis of Gastric Cancer Based on Noninvasive Characteristics,”doi: 10.1371/journal.pone.0244869.
+
+[11]  Chen, Ying; Wang, Xiaodong; Liu, Xiyang; Yu, Guanzhen, “Gastric cancer lymph node data set,” doi: 10.6084/m9.figshare.13065986.v34.
+
+[12] Chen Li, Weiming Hu, Changhao Sun, “Histopathological Gastric Cancer Detection onGasHisSDB,” doi:10.6084/m9.figshare.15066147.v1.   
+ 
+[13] Sun,Changhao; Li, Chen; Li, Yixin (2020), “Data for HCRF,” MendeleyData,V2,doi: 10.17632/thgf23xgy7.2.
+
+
+
+
+
+
 
 
 
